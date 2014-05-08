@@ -5,11 +5,11 @@
 
 # Elective Array
 
-Sometimes it's really hard to select your classes for the upcoming school year, especially electives. This year, you can chose from photography, ceramics, music, robotics, web development, and an independant studies.
+Sometimes it's really hard to select your classes for the upcoming school year, especially electives. This year, you can chose from photography, ceramics, music, robotics, web development, and an independant studies class.
 
 Let's start to organize all of our options. 
 
-1. Let's first create an array that contains each elective option listed above as a string. There are several ways to create arrays. See if you can practice a few. The (documentation)[http://www.ruby-doc.org/core-2.1.1/Array.html] will be helpful here.
+1. Let's first create an array that contains each elective option listed above as a string. There are several ways to create arrays. See if you can practice a few. The [documentation](http://www.ruby-doc.org/core-2.1.1/Array.html) will be helpful here.
 
 2. Now that we have an array, let's count how many items we have in that array. Take a look through the documentation to see if there are easy methods built in to ruby to help you do this. 
 
@@ -27,7 +27,7 @@ candies.each do |candy|
 end
 ```
 
-The `each` method requires the `do` keyword. The `|candy|` that you see is basically just selecting one item from your candies array. We're saying, do this block of code individually on just one piece of candy. All the code block in this example is doing is printing out the name of the candy. Try running it in IRB and see what happens!
+The `each` method requires the `do` keyword. The `|candy|` that you see is basically just the declaration of a variable called `candy` that represents each item in the array. We're saying, do this block of code individually on just one piece of candy. All the code block in this example is doing is printing out the name of the candy. Try running it in IRB and see what happens!
 
 6. After mulling over these elective options, you've decided you don't want to take photography anymore. Because it's the first item in the array, you can use the `pop` method to remove it. `pop` returns the item that you've removed, so you'll want to make sure your array contains one less item. The documentation linked in the beginning of this README will tell you all about `pop`. 
 

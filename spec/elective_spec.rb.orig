@@ -1,5 +1,13 @@
 require 'spec_helper'
 
+<<<<<<< HEAD
+describe 'Elective' do 
+
+  describe '#elective_array' do
+    expect(elective_array[0]).to eq "photography"
+  end
+  
+=======
 describe 'CLASS_ARRAY' do
 
   describe '#my_array' do
@@ -66,4 +74,5 @@ describe 'CLASS_ARRAY' do
     end
   end
 
+>>>>>>> 99aad45... specs
 end

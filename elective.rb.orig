@@ -1,5 +1,10 @@
 #code your solutions here
 
+<<<<<<< HEAD
+def elective_array
+  electives = ["photography", "ceramics", "music", "robotics", "web development", "independant studies"]
+end
+=======
 #1:
 def my_array
   #create your array here after the puts
@@ -83,3 +88,4 @@ end
 
 
 
+>>>>>>> 99aad45... specs

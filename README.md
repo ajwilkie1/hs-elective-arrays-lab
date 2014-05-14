@@ -7,7 +7,7 @@
 
 Sometimes it's really hard to select your classes for the upcoming school year, especially electives. This year, you can chose from photography, ceramics, music, robotics, web development, and an independant study.
 
-Let's start to organize all of our options. 
+Let's start to organize all of our options.  Don't forget to constantly run `rspec` in the lab directory. It's how you'll test that you're getting the correct outcomes!
 
 1. Let's first create an array that contains each elective option listed above as a string. There are several ways to create arrays, so don't be afraid to play around with them. The [documentation](http://www.ruby-doc.org/core-2.1.1/Array.html) will be helpful here.
 
@@ -33,3 +33,4 @@ The `each` method requires the `do` keyword. The `|candy|` that you see is basic
 
 
 7. Uh oh. Now you're not sure, maybe you do want an independant study. Let's use `push` to add that back to the end of the array. The `push` method takes an argument of the item you're pushing back into the array.
+

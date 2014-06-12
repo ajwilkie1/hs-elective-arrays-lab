@@ -60,7 +60,7 @@ describe 'CLASS_ARRAY' do
   end 
 
   describe '#push_item_at_the_end' do
-    it 'returns a random item from the array' do
+    it 'returns the array with independent_study' do
       expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independant study"])
       push_item_at_the_end
     end

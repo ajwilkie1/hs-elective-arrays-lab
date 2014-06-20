@@ -64,7 +64,7 @@ end
 
 #6:
 def push_item_at_the_end
-  #copy and paste your elective array here, remember we removed "independant study" !
+  electives = ["photography", "ceramics", "music", "robotics", "web development"]
 
   #write code  after the puts using the push method
   puts 

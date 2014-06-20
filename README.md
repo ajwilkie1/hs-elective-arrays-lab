@@ -5,7 +5,7 @@
 
 # Elective Array
 
-Sometimes it's really hard to select your classes for the upcoming school year, especially electives. This year, you can chose from photography, ceramics, music, robotics, web development, and an independant study.
+Sometimes it's really hard to select your classes for the upcoming school year, especially electives. This year, you can chose from photography, ceramics, music, robotics, web development, and an independent study.
 
 Let's start to organize all of our options.  Don't forget to constantly run `rspec` in the lab directory. It's how you'll test that you're getting the correct outcomes!
 

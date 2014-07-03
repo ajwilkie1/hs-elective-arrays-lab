@@ -3,21 +3,22 @@
 #1:
 def my_array
   #create your array here after the puts
-  puts electives = ["photography", "ceramics", "music", "robotics", "web development", "independant study"]
+  puts electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
 end
 
 #2:
 def count_items
   #copy and paste your elective array here
-  electives = ["photography", "ceramics", "music", "robotics", "web development", "independant study"]
+  electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
+
   #write your code here to count the items in your array
-  puts electives.count
+  puts electives.size
 end
 
 #3:
 def return_first_item
   #copy and paste your elective array here
-  electives = ["photography", "ceramics", "music", "robotics", "web development", "independant study"]
+electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
   #write your code directly after the puts to return the first item
   puts electives.first
 end
@@ -25,23 +26,23 @@ end
 #3: 
 def return_last_item
   #copy and paste your elective array here
-  electives = ["photography", "ceramics", "music", "robotics", "web development", "independant study"]
+  electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
   #write your code directly after the puts to return the last item
-  puts electives.last 
+  puts electives.last
 end
 
 #3: 
 def return_3_index
   #copy and paste your elective array here
-  electives = ["photography", "ceramics", "music", "robotics", "web development", "independant study"]
+  electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
   #write your code directly after the puts to return the item at the 3rd index
-  puts electives[3] 
+  puts electives[3]
 end
 
 #4:
 def random_item
   #copy and paste your elective array here
-  electives = ["photography", "ceramics", "music", "robotics", "web development", "independant study"]
+  electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
   #write code here to return a random item from the array (you don't need puts here)
   electives.sample
 end
@@ -49,12 +50,13 @@ end
 #5:
 def iterate_through_array
   #copy and paste your elective array here
-  electives = ["photography", "ceramics", "music", "robotics", "web development", "independant study"]
+  electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
   #write code directly here using the each method (you don't need puts here)
-  electives.each do |e|
-    puts e
+  electives.each do |item|
+    puts item + " is fun"
   end
 end
+
 
 #6:
 def pop_last_item

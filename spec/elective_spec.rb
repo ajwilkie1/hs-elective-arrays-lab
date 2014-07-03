@@ -4,7 +4,7 @@ describe 'CLASS_ARRAY' do
 
   describe '#my_array' do
     it 'returns an array named electives' do
-      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independant study"])
+      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independent study"])
       my_array
     end
   end
@@ -41,14 +41,14 @@ describe 'CLASS_ARRAY' do
     it 'returns a random item from the array' do
 
       expect(["photography", "ceramics", "music", "robotics", "web development", "independant study"]).to include(random_item)
-      # expect($stdout).to receive(:puts).with("robotics") #does the result include one of those things
-      # random_item
+      expect($stdout).to receive(:puts).with("robotics") #does the result include one of those things
+      random_item
     end
   end 
 
   describe '#iterate_through_array' do
     it 'returns the array' do
-      expect(iterate_through_array).to eq ['photography', 'ceramics', 'music', 'robotics', 'web development', 'independant study'] 
+      expect(iterate_through_array).to eq ['photography', 'ceramics', 'music', 'robotics', 'web development', 'independent study'] 
     end
   end
 
@@ -61,7 +61,7 @@ describe 'CLASS_ARRAY' do
 
   describe '#push_item_at_the_end' do
     it 'returns a random item from the array' do
-      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independant study"])
+      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independent study"])
       push_item_at_the_end
     end
   end

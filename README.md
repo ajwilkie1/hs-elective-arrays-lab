@@ -7,9 +7,10 @@
 
 Sometimes it's really hard to select your classes for the upcoming school year, especially electives. This year, you can chose from photography, ceramics, music, robotics, web development, and an independent study.
 
-Let's start to organize all of our options.  Don't forget to constantly run `rspec` in the lab directory. It's how you'll test that you're getting the correct outcomes!
+Let's start to organize all of our options.  Don't forget to constantly run `rspec` in terminal in the lab directory. It's how you'll test that you're getting the correct outcomes!
 
-1. Let's first create an array that contains each elective option listed above as a string. There are several ways to create arrays, so don't be afraid to play around with them. The [documentation](http://www.ruby-doc.org/core-2.1.1/Array.html) will be helpful here.
+The following exercises will all be completed in `electives.rb`
+1. Let's first create an array that contains each elective option listed above as a string. There are several ways to create arrays, so don't be afraid to play around with them. The [documentation](http://www.ruby-doc.org/core-2.1.1/Array.html) will be helpful here. You will need to copy and paste that array into each method for the following exercises.
 
 2. Now that we have an array, let's count how many items we have in that array. Take a look through the documentation to see if there are easy methods built in to ruby to help you do this. 
 

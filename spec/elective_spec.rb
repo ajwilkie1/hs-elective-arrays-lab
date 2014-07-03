@@ -25,7 +25,7 @@ describe 'CLASS_ARRAY' do
 
   describe '#return_last_item' do
     it 'returns 5' do
-      expect($stdout).to receive(:puts).with("independant study")
+      expect($stdout).to receive(:puts).with("independent study")
       return_last_item
     end
   end 
@@ -40,7 +40,7 @@ describe 'CLASS_ARRAY' do
    describe '#random_item' do
     it 'returns a random item from the array' do
 
-      expect(["photography", "ceramics", "music", "robotics", "web development", "independant study"]).to include(random_item)
+      expect(["photography", "ceramics", "music", "robotics", "web development", "independent study"]).to include(random_item)
       expect($stdout).to receive(:puts).with("robotics") #does the result include one of those things
       random_item
     end
@@ -54,7 +54,7 @@ describe 'CLASS_ARRAY' do
 
   describe '#pop_last_item' do
     it 'returns item removed from the array' do
-      expect($stdout).to receive(:puts).with("independant study")
+      expect($stdout).to receive(:puts).with("independent study")
       pop_last_item
     end
   end 

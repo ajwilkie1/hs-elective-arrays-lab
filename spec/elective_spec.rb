@@ -10,28 +10,28 @@ describe 'CLASS_ARRAY' do
   end
 
   describe '#count_items' do
-    it 'returns 5' do
+    it 'prints out 5' do
       expect($stdout).to receive(:puts).with(6)
       count_items
     end
   end  
 
   describe '#return_first_item' do
-    it 'returns 5' do
+    it 'prints out photography' do
       expect($stdout).to receive(:puts).with("photography")
       return_first_item
     end
   end 
 
   describe '#return_last_item' do
-    it 'returns 5' do
+    it 'prints out independent study' do
       expect($stdout).to receive(:puts).with("independent study")
       return_last_item
     end
   end 
 
   describe '#return_3_index' do
-    it 'returns robotics' do
+    it 'prints out robotics' do
       expect($stdout).to receive(:puts).with("robotics")
       return_3_index
     end
@@ -47,20 +47,20 @@ describe 'CLASS_ARRAY' do
   end 
 
   describe '#iterate_through_array' do
-    it 'returns the array' do
+    it 'prints out each item in the array and returns the array' do
       expect(iterate_through_array).to eq ['photography', 'ceramics', 'music', 'robotics', 'web development', 'independent study'] 
     end
   end
 
   describe '#pop_last_item' do
-    it 'returns item removed from the array' do
+    it 'prints out the item removed from the array' do
       expect($stdout).to receive(:puts).with("independent study")
       pop_last_item
     end
   end 
 
   describe '#push_item_at_the_end' do
-    it 'returns a random item from the array' do
+    it 'prints out a random item from the array' do
       expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independent study"])
       push_item_at_the_end
     end

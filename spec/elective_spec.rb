@@ -25,7 +25,7 @@ describe 'CLASS_ARRAY' do
 
   describe '#return_last_item' do
     it 'returns 5' do
-      expect($stdout).to receive(:puts).with("independant study")
+      expect($stdout).to receive(:puts).with("independent study")
       return_last_item
     end
   end 

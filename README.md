@@ -1,6 +1,8 @@
 ---
   tags: arrays, iteration, kids
   languages: ruby
+  level: 2
+  type: lab
 ---
 
 # Elective Array

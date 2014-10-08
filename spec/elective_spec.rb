@@ -6,13 +6,6 @@ describe 'STRING ARRAY METHODS' do
     @electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
   end
 
-  describe '#print_array' do
-    it 'prints an array that is given as an arguments' do
-      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independent study"])
-      print_array(@electives)
-    end
-  end
-
   describe '#count_items' do
     it 'returns the count of the items in an array' do
       expect(count_items(@electives)).to eq(6)
@@ -37,11 +30,38 @@ describe 'STRING ARRAY METHODS' do
     end
   end 
 
-   describe '#random_item' do
+  describe '#random_item' do
     it 'returns a random item a given array' do
       expect(["photography", "ceramics", "music", "robotics", "web development", "independent study"]).to include(random_item(@electives))
     end
   end 
+
+  describe '#add_item' do
+    it 'pushes independent study onto the array then prints the array' do
+      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independent study", "debate club"])
+      add_item(@electives, "debate club")
+    end
+  end
+
+  describe '#remove_item' do
+    it 'pops off independent study and prints the array' do
+      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development"])
+      remove_item(@electives)
+    end
+  end
+
+  describe '#print_items' do
+    it 'prints out a numbered list of items in the array' do
+      expect($stdout).to receive(:puts).with("1. photography")
+      expect($stdout).to receive(:puts).with("2. ceramics")
+      expect($stdout).to receive(:puts).with("3. music")
+      expect($stdout).to receive(:puts).with("4. robotics")
+      expect($stdout).to receive(:puts).with("5. web development")
+      expect($stdout).to receive(:puts).with("6. independent study")
+
+      print_items(@electives)
+    end
+  end
 
   describe '#reverse_each' do
     it 'returns an array where each item has been reversed' do

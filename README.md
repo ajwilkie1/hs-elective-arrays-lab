@@ -17,7 +17,7 @@ As you work, remember to constantly run `rspec` in terminal in the lab directory
 
 Here is the [documentation](http://www.ruby-doc.org/core-2.1.1/Array.html) on arrays if you need some help. 
 
-You're going to need to use `iteration` for some of the answers. There are many different ruby methods that act out iteration, but we'll just be using the `each` method for now. 
+You're also going to need to use `iteration` for some of the answers. There are many different ruby methods that act out iteration, but we'll just be using the `each` method for now. 
 
 Here is an example of how to use each:
 ```ruby
@@ -28,4 +28,4 @@ candies.each do |candy|
 end
 ```
 
-The `each` method always requires the `do` and `end` keywords. The `|candy|` that you see is basically just the declaration of a variable called `candy` that represents each item in the array. This `each` code block is iterating through the array and printing out the name of each candy in the array. 
+The `each` method always requires the `do` and `end` keywords. The `|candy|` that you see is the declaration of a variable called `candy` that represents each item in the array. In this `each` code block we are iterating through the array and printing out how much we love each candy in the array. 

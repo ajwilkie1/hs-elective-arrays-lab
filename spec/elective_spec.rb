@@ -36,17 +36,17 @@ describe 'STRING ARRAY METHODS' do
     end
   end 
 
-  describe '#add_item' do
-    it 'pushes independent study onto the array then prints the array' do
-      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independent study", "debate club"])
-      add_item(@electives, "debate club")
-    end
-  end
-
   describe '#remove_item' do
     it 'pops off independent study and prints the array' do
       expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development"])
       remove_item(@electives)
+    end
+  end
+
+  describe '#add_item' do
+    it 'pushes debate club onto the array then prints the array' do
+      expect($stdout).to receive(:puts).with(["photography", "ceramics", "music", "robotics", "web development", "independent study", "debate club"])
+      add_item(@electives, "debate club")
     end
   end
 

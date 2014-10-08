@@ -17,7 +17,7 @@ As you work, remember to constantly run `rspec` in terminal in the lab directory
 
 Here is the [documentation](http://www.ruby-doc.org/core-2.1.1/Array.html) on arrays if you need some help. 
 
-You're also going to need to use `iteration` for some of the answers. There are many different ruby methods that act out iteration, but we'll just be using the `each` method for now. 
+You're also going to need to use `iteration` for some of the answers. There are many different ruby methods that act out iteration, but we'll be using the `each` method for now. 
 
 Here is an example of how to use each:
 ```ruby

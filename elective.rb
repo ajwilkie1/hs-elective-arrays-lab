@@ -20,17 +20,17 @@ end
 #5: Create a method called random_item that will return a random item from an array that is given as an argument.
 
 
-#6: After mulling over these elective options, you've decided you don't want to take an independent study anymore. Write a method called remove_item that removes the last item in the array and then puts the array to the screen.
+#6: After mulling over these elective options, you've decided you don't want to take an independent study anymore. Write a method called remove_item that removes the last item in the array and then prints out the array to the screen.
 
 
-#7: You've decided to decided to add debate club to your elective option.Write a method called add_item that adds an item onto the array and then prints out the array to the screen. This method will need to take in two arguments: the array and the item that you want to add to the array.
+#7: You've decided to add debate club to your elective options.Write a method called add_item that adds an item onto the array and then prints out the array to the screen. This method will need to take in two arguments: the array and the item that you want to add to the array.
 
 
 #8: Create a method called print_items that prints out a numbered list of each item in the array. Like this: 
 # 1. photography
 # 2. ceramics
 # etc....
-# HINT: Look up how to use each_with_index.
+# HINT: Look up how to use the `each_with_index` method.
 
 
 #9: Create a method called reverse_each that takes an array of strings as an argument and returns another array where the strings have each been reversed.

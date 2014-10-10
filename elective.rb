@@ -1,4 +1,4 @@
-# I've created an array called 'electives' for you to use to test your methods out.
+# This year's elective choices are photography, ceramics, music, robotics, web development, and an independent study. We've created an array called 'electives' for you to use to test your methods out.
 electives = ["photography", "ceramics", "music", "robotics", "web development", "independent study"]
 
 #code your solutions

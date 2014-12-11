@@ -6,7 +6,7 @@
 ---
 
 ## Elective Array
-***Pick a partner for this lab (or work in a group of three)***
+<img src="https://s3.amazonaws.com/after-school-assets/electives.jpg" width="300px" align="right" hspace="10"> ***Pick a partner for this lab (or work in a group of three)***
 
 We're going to use test driven development (TDD) to write a set of methods that will help us organize and choose our electives for the school year. ***Don't forget to click on the fork icon above to fork and clone this lab.*** The file where you will write your code is called `elective.rb` and the tests are in the `spec` directory in a file called `elective_spec.rb`.
 

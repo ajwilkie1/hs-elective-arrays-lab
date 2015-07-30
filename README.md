@@ -1,9 +1,4 @@
----
-  tags: arrays, iteration, kids
-  languages: ruby
-  level: 2
-  type: lab
----
+
 
 ## Elective Array
 <img src="https://s3.amazonaws.com/after-school-assets/electives.jpg" width="300px" align="right" hspace="10"> ***Pick a partner for this lab (or work in a group of three)***

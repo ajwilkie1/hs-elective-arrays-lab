@@ -21,3 +21,5 @@ end
 ```
 
 The `each` method always requires the `do` and `end` keywords. The `|candy|` that you see is the declaration of a variable called `candy` that represents each individual item in the array. In this `each` code block we are iterating through the array and printing out how much we love each candy in the array.
+
+<a href='https://learn.co/lessons/hs-elective-arrays-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
